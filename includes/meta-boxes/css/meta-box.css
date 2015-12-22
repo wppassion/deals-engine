@@ -1,0 +1,304 @@
+/**
+ * All Types Meta Box Class CSS
+ *
+ * CSS used for the custom metaboxes and other form items.
+ */
+
+/* =Common Rules for all fields.
+----------------------------------------------- */
+.form-table td.wps-deals-meta-field { 
+	padding: 10px 10px 20px; 
+	margin: 0px; 
+}
+.wps-deals-meta-label { 
+	margin: 0 0 5px 0; 
+	padding: 5px 0 0 0; 
+}
+.wps-deals-meta-radio-label { 
+	padding-right: 10px; 
+}				
+.wps-deals-meta-file-upload-label { 
+	clear: both; 
+	margin: 5px 0px 5px 1px; 
+}	
+
+/* =Form Fields
+----------------------------------------------- */
+.postbox .wps-deals-meta-field input,
+.postbox .wps-deals-meta-field textarea { 
+	padding: 5px; 
+	line-height: 18px; 
+} 
+.postbox .wps-deals-meta-field input.wps-deals-meta-radio{}
+.postbox .wps-deals-meta-field input.wps-deals-meta-color { 
+	border: 0px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	margin-right: 10px; 
+	min-width: 100px; 
+}
+.wps-deals-meta-field input:focus, 
+.wps-deals-meta-field textarea:focus { 
+	background: #fffff8; 
+}
+#wpcontent select.wps-deals-meta-select { 
+	height: 30px !important; 
+	padding: 5px; 
+	display: block; 
+	width: 200px; 
+}
+.wps-deals-meta-field .desc-field { 
+	color: #AAA; 
+	font-style: italic; 
+	margin: 5px 0 0 3px !important; 
+	font-size: 13px; 
+}
+.wps-deals-meta-field .wp_themeSkin table.mceLayout { 
+	border: 1px solid #DFDFDF; 
+}
+#post-body .wps-deals-meta-field .wp_themeSkin .mceStatusbar a.mceResize { 
+	top: -25px; 
+} 
+p.wps-deals-meta,
+.desc-field {
+	color: #7d7d7d;
+	font-style: italic;
+	margin: 5px 0;
+	font-size: 13px; 
+}
+.wp-editor-container .wp_themeSkin iframe {
+	background: #fff !important;
+	min-height:350px !important;
+}
+
+/* =Uploaded Images
+----------------------------------------------- */
+.wps-deals-meta-images li { 
+	margin: 5px 10px 0px 0; 
+	float: left; 
+	width: 150px; 
+	height: 150px; 
+	text-align: center; 
+	border: 3px solid #ccc; 
+	cursor: move; 
+	position: relative; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+}
+.wps-deals-meta-images img { 
+	width: 150px; 
+	height: 150px; 
+}
+.wps-deals-meta-images a { 
+	position: absolute; 
+	top: -12px; 
+	right: -12px; 
+	color: #fff;  
+	font-weight: bold; 
+	padding: 5px; 
+}
+.wps-deals-meta-images .wps-deals-meta-delete-file img{
+	width: 16px; 
+	height: 16px; 
+}
+
+/* =Upload Button
+----------------------------------------------- */
+.wps-deals-meta-upload-button { 
+	float: left; 
+	clear: both; 
+	margin-top: 10px; 
+}
+.wps-deals-meta-add-file { 
+	float: left; 
+	clear: both; 
+	margin-top: 10px; 
+}
+.wps-deals-meta-delete_image_button {
+	margin-left: 5px !important;
+}
+ 
+/* =Time Picker
+----------------------------------------------- */
+.ui-timepicker-div { 
+	font-size: 0.9em; 
+}
+.ui-timepicker-div .ui-widget-header { 
+	margin-bottom: 8px; 
+}
+.ui-timepicker-div dl { 
+	text-align: left; 
+}
+.ui-timepicker-div dl dt { 
+	height: 25px; 
+}
+.ui-timepicker-div dl dd { 
+	margin: -25px 0 10px 65px; 
+}
+.ui-timepicker-div td { 
+	font-size: 90%; 
+}
+#ui-datepicker-div {
+	display: none;
+}
+/* =Repater Block
+----------------------------------------------- */
+.wps-deals-meta-repater-block {
+	background: #fff;
+	border: 1px solid #DFDFDF;
+	border-radius: 5px;
+	padding: 5px 5px 5px 10px;
+	margin-bottom: 15px;
+	float: left;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.wps-deals-meta-repater-block img {
+	margin-right: 15px;
+	float: right;
+}
+.wps-deals-meta-repeat img {
+	cursor: pointer;
+}
+/* inline */
+.wps-deals-meta-inline label {
+	font-size: 12px !important;
+}
+.wps-deals-meta-inline textarea {
+	height: 130px;
+	width: 200px;
+}
+
+.wps_deals_success_msg .wp-editor {
+	background-color: #fff !important;
+}
+
+/*** CSS For MetaBox Tabs *****/
+/**
+ * Metabox Tabs
+ */
+.wps-deals-metabox-tabs-div ul.metabox-tabs {
+	display: none;
+	margin-top: 12px;
+	margin-bottom: 3px;
+}
+.wps-deals-metabox-tabs-div ul {
+	list-style: none;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li {
+	display: inline;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li.active {
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+	background: #fff;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li {
+	padding: 5px;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs a {
+	text-decoration: none;
+}
+.wps-deals-metabox-tabs-div div.tabs-panel {
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+}
+.wps-deals-metabox-tabs-div .heading {
+	padding-left:10px;
+}
+.wps-deals-metabox-tabs-div .tab-content{
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+	background: #fff;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li.active {
+	background-color: #fff;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li.active, div.tab-content {
+	border-color: #D1E5EE;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs .active a {
+	color: #333;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs li.active, div.tab-content {
+	border-color: #DFDFDF;
+}
+.wps-deals-metabox-tabs-div ul.metabox-tabs .active a {
+	color: #333;
+}
+.wps-deals-upload-files{
+	background: none repeat scroll 0 0 #FFFFFF;
+    display: block;
+   /* padding: 2px 8px;*/
+    position: relative;
+    right: 30px;
+    top: 5px;
+    margin-top: -27px;
+    float: right;
+}
+.wps-deals-upload-files a {
+	text-decoration:none;
+}
+table.wps-deals-stat-table tr th {
+	 width: 100px;
+}
+
+#wps_deals_meta h3.hndle {
+    padding: 4px 10px;
+}
+#wps_deals_meta h3.hndle span {
+    display: block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+#wps_deals_meta h3.hndle span span {
+    display: inline;
+    line-height: inherit;
+    vertical-align: baseline;
+}
+#wps_deals_meta h3.hndle select {
+    font-family: sans-serif;
+    margin: 0;
+}
+#wps_deals_meta h3.hndle label {
+    font-size: 12px;
+    padding-right: 1em;
+    vertical-align: baseline;
+}
+#wps_deals_meta h3.hndle label:first-child {
+    border-right: 1px solid #DFDFDF;
+    margin-right: 1em;
+}
+#wps_deals_meta h3.hndle input, #wps_deals_meta h3.hndle select {
+    margin: -3px 0 0 0.5em;
+    vertical-align: middle;
+}
+#wps_deals_purchase_link_wrapper {
+	display: none;
+}
+#bundle_content {
+	overflow : inherit;
+}
+a.wps-deals-delete-bundel,
+a.wps-deals-delete-fileadvanced {
+	vertical-align: top;
+}
+a.wps-deals-delete-bundel img,
+a.wps-deals-delete-fileadvanced img{
+	margin-left: 5px;
+ 	margin-top: 3px;
+}
